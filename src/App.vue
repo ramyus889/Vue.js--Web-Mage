@@ -12,18 +12,16 @@ import BigCard from './components/BigCard.vue';
   <div class="">
     <UseHeader />
     <div class="flex place-content-center">
-      <div class="flex flex-col gap-[200px] max-w-[1400px] mt-[200px]">
-        <BigCard />
-      </div>
-    </div>
-    <!-- 
-      <MinCard />
+      <div class="flex flex-col gap-[200px] max-w-[1400px]">
         <UseMain />
+        <MinCard />
+        <BigCard />
         <GridCard />
         <MainFooter />
+      </div>
+    </div>
     <div class="mt-[200px]">
       <UseFooter />
-    </div> 
-    -->
+    </div>
   </div>
 </template>

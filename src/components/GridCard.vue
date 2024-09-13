@@ -4,8 +4,6 @@
   <div class="flex place-content-center px-5">
     <div class="flex flex-col gap-[32px]">
       <div
-        data-aos="fade-up"
-        data-aos-delay="100"
         class="text-[105px] font-semibold bg-[#1a1c21] py-[45px] ps-[48px] leading-[105px] text-[#b4b8c0] rounded-2xl"
       >
         You’ll <span class="text-[#4776FF] font-bold">love</span> Mage. I bet Airflow gets dethroned
@@ -17,8 +15,6 @@
       </div>
       <div class="flex gap-[32px]">
         <div
-          data-aos="fade-right"
-          data-aos-delay="300"
           class="text-[65px] text-[#b4b8c0] py-[45px] px-[48px] max-w-[840px] leading-[65px] font-semibold rounded-2xl bg-[#1a1c21]"
         >
           Awestruck when I used Mage for the first time. It’s super clean and
@@ -29,8 +25,6 @@
           </div>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-delay="500"
           class="text-[36px] text-[#b4b8c0] py-[45px] px-[48px] leading-[36px] max-w-[640px] font-semibold rounded-2xl bg-[#1a1c21]"
         >
           One thing that hasn't been highlighted much about Mage is the
@@ -47,8 +41,6 @@
         </div>
       </div>
       <div
-        data-aos="fade-up"
-        data-aos-delay="600"
         class="text-[50px] font-semibold bg-[#1a1c21] py-[45px] ps-[48px] leading-[60px] text-[#b4b8c0] rounded-2xl"
       >
         I can say even after just trying it once, Mage would help any Data Engineering team write
@@ -61,8 +53,6 @@
       </div>
       <div class="flex gap-[32px]">
         <div
-          data-aos="fade-right"
-          data-aos-delay="100"
           class="text-[30px] text-[#b4b8c0] py-[45px] px-[48px] max-w-[940px] leading-[35px] font-semibold rounded-2xl bg-[#1a1c21]"
         >
           The go to tool for any team looking to build and orchestrate data pipelines.
@@ -77,8 +67,6 @@
           </div>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-delay="300"
           class="text-[40px] text-[#b4b8c0] py-[45px] px-[48px] leading-[47px] max-w-[500px] font-semibold rounded-2xl bg-[#1a1c21]"
         >
           I want to thank the Mage team for building such a great product. I am happy and excited to
@@ -94,8 +82,6 @@
       </div>
       <div class="flex gap-[32px]">
         <div
-          data-aos="fade-up"
-          data-aos-delay="600"
           class="text-[45px] text-[#b4b8c0] py-[45px] px-[48px] max-w-[580px] leading-[54px] rounded-2xl bg-[#1a1c21]"
         >
           I just loved using it, so
@@ -106,8 +92,6 @@
           </div>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-delay="800"
           class="text-[55px] text-[#b4b8c0] py-[45px] px-[48px] leading-[66px] max-w-[800px] font-semibold rounded-2xl bg-[#1a1c21]"
         >
           Probably will make people
