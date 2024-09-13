@@ -1,11 +1,13 @@
 <script setup></script>
 <template>
   <div class="bg-[#1B1C20] pt-[72px] border-t border-slate-500">
-    <div class="mx-[555px] px-5">
+    <div class="px-10">
       <div class="mt-[23px]">
-        <div class="flex justify-between items-end">
-          <div class="flex gap-[101px]">
-            <div class="flex flex-col gap-5 w-[200px]">
+        <div
+          class="flex lg:flex-row flex-col-reverse lg:gap-0 gap-10 lg:justify-between lg:items-end"
+        >
+          <div class="flex sm:flex-row flex-col gap-[50px] sm:gap-[101px]">
+            <div class="flex flex-col gap-5 w-[150px]">
               <div class="font-bold">GET STARTED</div>
               <div class="border-b border-slate-500"></div>
               <a href="#" class="hover:underline">Documentation</a>
@@ -13,7 +15,7 @@
               <a href="#" class="hover:underline">Try live tool</a>
               <a href="#" class="hover:underline">Get instant help</a>
             </div>
-            <div class="flex flex-col gap-5 w-[200px]">
+            <div class="flex flex-col gap-5 w-[150px]">
               <div class="font-bold">COMMUNITY</div>
               <div class="border-b border-slate-500"></div>
               <a href="#" class="hover:underline">GitHub</a>
@@ -21,7 +23,7 @@
               <a href="#" class="hover:underline">LinkedIn</a>
               <a href="#" class="hover:underline">Twitter</a>
             </div>
-            <div class="flex flex-col gap-5 w-[200px]">
+            <div class="flex flex-col gap-5 w-[150px]">
               <div class="font-bold">LEARN</div>
               <div class="border-b border-slate-500"></div>
               <a href="#" class="hover:underline">Blog</a>
@@ -115,10 +117,12 @@
       </div>
     </div>
     <div class="border-t border-slate-500 mt-[96px]">
-      <div class="mx-[555px]">
-        <div class="flex justify-between pt-[30px] pb-[38px] px-5">
+      <div class="">
+        <div
+          class="flex sm:flex-row flex-col sm:gap-0 gap-2 sm:justify-between pt-[30px] pb-[38px] px-10"
+        >
           <div class="">© 2024 Mage Technologies, Inc.</div>
-          <div class="flex gap-2">
+          <div class="flex max-[400px]:flex-col gap-2">
             <a href="#" class="hover:underline">Privacy policy</a>
             <a href="#" class="hover:underline">Terms of service</a>
             <a href="#" class="hover:underline">Security</a>

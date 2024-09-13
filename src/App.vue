@@ -1,11 +1,11 @@
 <script setup>
-import UseHeader from './components/UseHeader.vue';
-// import UseMain from './components/UseMain.vue';
-// import MinCard from './components/MinCard.vue';
 import BigCard from './components/BigCard.vue';
-// import GridCard from './components/GridCard.vue';
-// import MainFooter from './components/MainFooter.vue';
-// import UseFooter from './components/UseFooter.vue';
+import GridCard from './components/GridCard.vue';
+import MainFooter from './components/MainFooter.vue';
+import MinCard from './components/MinCard.vue';
+import UseFooter from './components/UseFooter.vue';
+import UseHeader from './components/UseHeader.vue';
+import UseMain from './components/UseMain.vue';
 </script>
 
 <template>

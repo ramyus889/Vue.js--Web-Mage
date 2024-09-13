@@ -77,7 +77,7 @@ const bigItems = [
             >
               {{ item.title }}
             </div>
-            <div class="text-[24px] text-white">
+            <div class="text-[24px] text-white max-[600px]:text-start">
               {{ item.text }}
             </div>
             <a href="#" class="underline font-bold text-[20px] text-white">{{ item.link }}</a>
