@@ -25,7 +25,7 @@ const bigItems = [
     title: 'Preview',
     color: '#885eff',
     image: '/Preview.png',
-    width: 'w-[960px]',
+    width: 'w-[905px]',
     text: 'Are you wasting time trying to test your DAGs in production? Get instant feedback every time you run code in development.',
     link: 'Start previewing →',
     minImage1: '/Preview1.svg',
@@ -67,7 +67,9 @@ const bigItems = [
   <div class="flex place-content-center px-5">
     <div class="flex flex-col gap-[200px]">
       <div v-for="item in bigItems" :key="item.id" class="flex flex-col gap-10">
-        <div class="flex gap-5 items-center">
+        <div
+          class="flex min-[1480px]:flex-row flex-col max-[1480px]:max-w-[900px] max-[1480px]:text-center gap-5 items-center"
+        >
           <div class="flex flex-col gap-5 items-start">
             <div
               data-aos="fade-up"
@@ -96,33 +98,35 @@ const bigItems = [
             :class="item.width + ' rounded-2xl'"
           />
         </div>
-        <div class="flex gap-[32px]">
-          <div
-            data-aos="fade-up"
-            data-aos-delay="400"
-            class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[466px]"
-          >
-            <img :src="item.minImage1" alt="" width="100" />
-            <div class="text-[32px] text-white font-bold">{{ item.minTitle1 }}</div>
-            <div class="text-[20px] text-[#b4b8c0]">{{ item.minText1 }}</div>
-          </div>
-          <div
-            data-aos="fade-up"
-            data-aos-delay="600"
-            class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[466px]"
-          >
-            <img :src="item.minImage2" alt="" width="100" />
-            <div class="text-[32px] text-white font-bold">{{ item.minTitle2 }}</div>
-            <div class="text-[20px] text-[#b4b8c0]">{{ item.minText2 }}</div>
-          </div>
-          <div
-            data-aos="fade-up"
-            data-aos-delay="800"
-            class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[466px]"
-          >
-            <img :src="item.minImage3" alt="" width="100" />
-            <div class="text-[32px] text-white font-bold">{{ item.minTitle3 }}</div>
-            <div class="text-[20px] text-[#b4b8c0]">{{ item.minText3 }}</div>
+        <div class="flex place-content-center">
+          <div class="flex min-[1480px]:flex-row flex-col gap-[32px]">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="400"
+              class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[900px] min-[1480px]:max-w-[466px]"
+            >
+              <img :src="item.minImage1" alt="" width="100" />
+              <div class="text-[32px] text-white font-bold">{{ item.minTitle1 }}</div>
+              <div class="text-[20px] text-[#b4b8c0]">{{ item.minText1 }}</div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="600"
+              class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[900px] min-[1480px]:max-w-[466px]"
+            >
+              <img :src="item.minImage2" alt="" width="100" />
+              <div class="text-[32px] text-white font-bold">{{ item.minTitle2 }}</div>
+              <div class="text-[20px] text-[#b4b8c0]">{{ item.minText2 }}</div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="800"
+              class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[900px] min-[1480px]:max-w-[466px]"
+            >
+              <img :src="item.minImage3" alt="" width="100" />
+              <div class="text-[32px] text-white font-bold">{{ item.minTitle3 }}</div>
+              <div class="text-[20px] text-[#b4b8c0]">{{ item.minText3 }}</div>
+            </div>
           </div>
         </div>
       </div>

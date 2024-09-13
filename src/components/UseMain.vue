@@ -3,17 +3,20 @@
 <template>
   <div class="mt-[160px] px-5">
     <div class="flex flex-col gap-[40px] items-center text-center">
-      <div data-aos="fade-up" class="text-[112px] font-bold text-white leading-[112px]">
+      <div
+        data-aos="fade-up"
+        class="text-[40px] lg:text-[112px] sm:text-[64px] leading-[40px] lg:leading-[112px] sm:leading-[64px] font-bold text-white"
+      >
         Give your data team magical powers
       </div>
       <div
         data-aos="fade-up"
         data-aos-delay="200"
-        class="bg-gradient-to-r bg-clip-text text-transparent from-[#765CED] to-[#31AAFD] text-[32px]"
+        class="bg-gradient-to-r bg-clip-text text-transparent from-[#765CED] to-[#31AAFD] text-[20px] sm:text-[32px]"
       >
         Open-source data pipeline tool for transforming and integrating data.
       </div>
-      <div class="flex gap-5">
+      <div class="flex sm:flex-row flex-col gap-5">
         <button
           data-aos="fade-right"
           data-aos-delay="300"

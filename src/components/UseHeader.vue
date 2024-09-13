@@ -1,6 +1,7 @@
 <script setup>
 import Button from 'primevue/button';
 import { ref } from 'vue';
+import UseDrawer from './UseDrawer.vue';
 
 const click = ref(7701);
 </script>
@@ -81,7 +82,11 @@ const click = ref(7701);
         </defs>
       </svg>
 
-      <div class="flex gap-5 items-center">
+      <div class="flex gap-5 items-center lg:hidden">
+        <UseDrawer />
+      </div>
+
+      <div class="lg:flex gap-5 items-center hidden">
         <div class="flex">
           <Button text severity="secondary" class="font-bold">Docs</Button>
           <Button text severity="secondary" class="font-bold">Community</Button>
