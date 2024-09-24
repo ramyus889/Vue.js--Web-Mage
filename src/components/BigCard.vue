@@ -72,21 +72,41 @@ const bigItems = [
         >
           <div class="flex flex-col gap-5 items-start">
             <div
+              data-aos="fade-up"
+              data-aos-delay="100"
               class="text-[96px] max-[400px]:text-[66px] font-bold"
               :style="{ color: item.color }"
             >
               {{ item.title }}
             </div>
-            <div class="text-[24px] text-white max-[600px]:text-start">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="text-[24px] text-white max-[600px]:text-start"
+            >
               {{ item.text }}
             </div>
-            <a href="#" class="underline font-bold text-[20px] text-white">{{ item.link }}</a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              class="underline font-bold text-[20px] text-white"
+              >{{ item.link }}</a
+            >
           </div>
-          <img :src="item.image" alt="" :class="item.width + ' rounded-2xl'" />
+          <img
+            :src="item.image"
+            alt=""
+            data-aos="fade-up"
+            data-aos-delay="400"
+            :class="item.width + ' rounded-2xl'"
+          />
         </div>
         <div class="flex place-content-center">
           <div class="flex min-[1480px]:flex-row flex-col gap-[32px]">
             <div
+              data-aos="fade-up"
+              data-aos-delay="300"
               class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[900px] min-[1480px]:max-w-[466px]"
             >
               <img :src="item.minImage1" alt="" width="100" />
@@ -94,6 +114,8 @@ const bigItems = [
               <div class="text-[20px] text-[#b4b8c0]">{{ item.minText1 }}</div>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="400"
               class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[900px] min-[1480px]:max-w-[466px]"
             >
               <img :src="item.minImage2" alt="" width="100" />
@@ -101,6 +123,8 @@ const bigItems = [
               <div class="text-[20px] text-[#b4b8c0]">{{ item.minText2 }}</div>
             </div>
             <div
+              data-aos="fade-up"
+              data-aos-delay="500"
               class="flex flex-col gap-5 bg-[#1a1c21] px-[32px] pt-[16px] pb-[32px] rounded-2xl max-w-[900px] min-[1480px]:max-w-[466px]"
             >
               <img :src="item.minImage3" alt="" width="100" />
