@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .UserBorder {
   border: 1px solid #64748b;
   border-radius: 16px;

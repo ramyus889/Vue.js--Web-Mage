@@ -2,10 +2,30 @@
   <div class="card flex justify-center">
     <Drawer v-model:visible="visibleRight" header="Mage" position="right">
       <div class="flex flex-col gap-3">
-        <a href="#" class="border-b-2 border-white pb-2 ps-1 hover:underline">Docs</a>
-        <a href="#" class="border-b-2 border-white pb-2 ps-1 hover:underline">Community</a>
-        <a href="#" class="border-b-2 border-white pb-2 ps-1 hover:underline">Blog</a>
-        <a href="#" class="border-b-2 border-white pb-2 ps-1 hover:underline">Get started</a>
+        <a
+          href="#"
+          @click="visibleRight = false"
+          class="border-b-2 border-white pb-2 ps-1 hover:underline"
+          >Docs</a
+        >
+        <a
+          href="#"
+          @click="visibleRight = false"
+          class="border-b-2 border-white pb-2 ps-1 hover:underline"
+          >Community</a
+        >
+        <a
+          href="#"
+          @click="visibleRight = false"
+          class="border-b-2 border-white pb-2 ps-1 hover:underline"
+          >Blog</a
+        >
+        <a
+          href="#"
+          @click="visibleRight = false"
+          class="border-b-2 border-white pb-2 ps-1 hover:underline"
+          >Get started</a
+        >
       </div>
     </Drawer>
     <div class="flex gap-3 items-center">
